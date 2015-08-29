@@ -1,4 +1,3 @@
-
 public class ThePoint {
 	
 	private int x;
