@@ -20,11 +20,11 @@ public class ThePoint {
 		return y;
 	}
 	
-	public ThePoint distance(ThePoint firstp, ThePoint secondp){
+	public ThePoint distance(ThePoint firstp, ThePoint secondp){ //return type should be double, you are returning distance (a number)
 		int distx = firstp.getX() - secondp.getX();
 		int disty = firstp.getY() - secondp.getY();
-		ThePoint result = new ThePoint(distx, disty);
-		return result;
+		ThePoint result = new ThePoint(distx, disty); 
+		return result; //distance is not calculated correctly. it should be the hypotenuse of the right angle triangle
 	}
 
 }
